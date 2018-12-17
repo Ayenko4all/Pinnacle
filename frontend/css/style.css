@@ -1,0 +1,159 @@
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}body {
+   background-color: #eeeeaa; 
+ /*  background-color: #000000 ; */
+  padding-top: 104px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+/* #showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; } */
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/house.jpeg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/house4.jpeg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/house3.jpeg");
+  background-size: cover; }
+
+.fa {
+  font-size: 55px; }
+
+
+.finder label {
+  color: #eeeeaa;
+}
+
+
+
+
+#page-header {
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+
+  .overlay{
+
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+
+
+
+}
+
+#slide h6 {
+
+  font-family: 'Lato', sans-serif;
+
+  font-size: 10;
+}
+.display-3{
+  background: rgba(0,0,0,.6);
+
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+
+#our-values h6 {
+
+  padding-left: 10px; 
+}
+
+
+img.details{
+  width: 100%;
+  margin: 15px auto;
+  height: 100%
+}
+
+
+.img-fluid{
+  width: auto;
+  height: 125px;
+}
+
+.thumbnail{
+  height: 100%;
+  width: 100%;
+}
